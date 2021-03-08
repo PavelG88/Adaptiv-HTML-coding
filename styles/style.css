@@ -531,3 +531,68 @@ header img {
         font-size: 10px;
     }
 }
+
+/* 4. Block What learn */
+.what_learn {
+    padding: 0 121px;    
+}
+
+.what_learn h2 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-bottom: 57px;
+}
+
+.info_what_learn {
+    max-width: 678px;
+    font-size: 24px;
+    line-height: 150%; 
+    margin-left: 15px;
+    padding: 0;
+}
+
+@media (max-width: 1279px) {
+    .wrapper {
+        max-width: 834px;
+    }
+    
+    .what_learn {
+        padding: 0 70px;    
+    }
+    
+    .what_learn h2 {
+        font-size: 32px;
+        margin-bottom: 33px;
+    }
+    
+    .info_what_learn {
+        max-width: 393px;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .wrapper {
+        max-width: 375px;
+    }
+    
+    .what_learn {
+        padding: 0 35px;    
+    }
+    
+    .what_learn h2 {
+        font-size: 26px;
+        margin-bottom: 26px;
+    }
+    
+    .info_what_learn {
+        max-width: 307px;
+        font-size: 12px;
+        margin-left: 8px;
+    }
+}
