@@ -259,3 +259,175 @@ header img {
         font-size: 10px;
     }
 }
+/* Block-2 About course */
+
+.about_kurs {
+    padding: 10px 121px;
+    box-sizing: border-box;
+}
+
+.about_kurs h2 {
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+
+.block_main_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_text {
+    max-width: 662px;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.main_img {
+    max-width: 366px;
+}
+
+.main_img img {
+    width: 100%;
+}
+
+.dop_info {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.dop_img {
+    max-width: 232px;
+}
+
+.dop_img img{
+    width: 100%;
+}
+
+.dop_text {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.dop_text_item {
+    max-width: 150px;
+    margin: 48px;
+}
+
+.dop_text_item h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.dop_text_item p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+@media (max-width: 1279px) {
+    .wrapper {
+        max-width: 834px;
+    }
+    
+    .about_kurs {
+        padding: 10px 71px;
+    }
+    
+    .about_kurs h2 {
+        font-size: 32px;
+    }
+    
+    .main_text {
+        max-width: 384px;
+        font-size: 14px;
+    }
+    
+    .main_img {
+        max-width: 212px;
+    }
+    
+    .dop_info {
+        margin-top: 35px;
+        max-width: 581px;
+    }
+
+    .dop_img {
+        max-width: 135px;
+    }
+    
+    .dop_text_item {
+        max-width: 87px;
+        margin: 28px;
+    }
+    
+    .dop_text_item h3 {
+        font-size: 15px;
+        margin-bottom: 6px;
+    }
+    
+    .dop_text_item p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 991px) {
+    .wrapper {
+        max-width: 375px;
+    }
+    .about_kurs {
+        padding: 10px 36px;
+    }
+    
+    .about_kurs h2 {
+        font-size: 26px;
+    }
+    
+    .block_main_info {
+        display: block;
+    }
+
+    .main_text {
+        max-width: 100%;
+        font-size: 12px;
+    }
+    
+    .main_img {
+        max-width: 171px;
+        margin: 15px auto;
+    }
+    
+    .dop_info {
+        margin-top: 30px;
+        max-width: 100%;
+        display: block;
+    }
+
+    .dop_img {
+        display: none;
+    }
+    
+    .dop_text_item {
+        max-width: 87px;
+        margin: 0 33px 33px 0;
+    }
+    
+    .dop_text_item h3 {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+    
+    .dop_text_item p {
+        font-size: 10px;
+    }    
+}
