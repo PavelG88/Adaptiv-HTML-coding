@@ -854,3 +854,137 @@ header img {
         width: 15px;
     }
 }
+
+/* Block Start of course */
+.start_kurs {
+    background-color: #9DC9C8;
+    padding: 179px 121px;
+    box-sizing: border-box;
+}
+
+.start_kurs h2 {
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-top: 0;
+}
+
+.start_kurs p {
+    font-size: 25px;
+    line-height: 101.38%;
+    margin: 0;
+}
+
+p.cost {
+    margin-top: 0px;
+    font-size: 80px;
+    line-height: 101.38%;
+}
+
+.start_kurs_info {
+    margin-top: 70px;
+    max-width: 686px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.start_kurs_item {
+    max-width: 294px;
+    margin-bottom: 10px;
+}
+
+.start_kurs_item h3 {
+    font-size: 25px;
+    line-height: 101.38%;
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+
+.start_kurs_item p {
+    font-size: 18px;
+    line-height: 101.38%;    
+}
+
+@media (max-width: 1279px) {
+    .wrapper {
+        max-width: 834px;
+    }
+    
+    .start_kurs {
+        padding: 104px 71px;
+    }
+    
+    .start_kurs h2 {
+        font-size: 32px;
+    }
+    
+    .start_kurs p {
+        font-size: 14px;
+    }
+    
+    p.cost {
+        font-size: 46px;
+    }
+    
+    .start_kurs_info {
+        margin-top: 38px;
+        max-width: 398px;
+    }
+    
+    .start_kurs_item {
+        max-width: 170px;
+    }
+    
+    .start_kurs_item h3 {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    
+    .start_kurs_item p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .wrapper {
+        max-width: 375px;
+    }
+    
+    .start_kurs {
+        padding: 62px 32px;
+    }
+    
+    .start_kurs h2 {
+        font-size: 26px;
+        margin-right: 95px;
+    }
+    
+    .start_kurs p {
+        font-size: 12px;
+    }
+    
+    p.cost {
+        font-size: 37px;
+    }
+    
+    .start_kurs_info {
+        margin-top: 30px;
+        max-width: 320px;
+    }
+    
+    .start_kurs_item {
+        max-width: 138px;
+    }
+    
+    .start_kurs_item h3 {
+        font-size: 12px;
+        margin-bottom: 6px;
+        font-weight: 400;
+    }
+    
+    .start_kurs_item p {
+        font-size: 10px;
+    }
+}
