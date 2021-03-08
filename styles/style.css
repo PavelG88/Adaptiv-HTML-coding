@@ -98,3 +98,164 @@ header img {
         margin-right: 4px;
     }    
 }
+
+/* Block-1  Top block*/
+
+.top_block {
+    padding: 5px 121px; 
+}
+
+.top_block_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top_block_text {
+    max-width: 640px;
+}
+
+.top_block_text  h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 101.38%;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.top_block_text p {
+    max-width: 414px;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.top_block_img {
+    max-width: 304px;
+    margin-right: 75px;
+}
+
+.top_block_img img {
+    width: 100%;
+}
+
+.top_block_quote {
+    max-width: 484px;
+    background-color: #1E4681;
+    border-radius: 5px;
+    margin: 67px auto;
+    padding: 19px 26px;
+    box-sizing: border-box;
+}
+
+.top_block_quote p {
+    font-family: Roboto Slab;
+    font-size: 25px;
+    line-height: 130%;
+    color: white;
+    margin: 0;
+}
+
+.top_block_quote .author {
+    font-size: 20px;
+    line-height: 130%;
+    text-align: right;
+    color: white;
+    font-family: Roboto;
+}
+
+@media (max-width: 1279px) {
+    .wrapper {
+        max-width: 834px;
+    }
+    
+    .top_block {
+        padding: 5px 71px;
+    }
+    .top_block_text {
+        max-width: 364px;
+    }
+
+    .top_block_text  h1 {
+        font-size: 46px;
+        margin-top: 8px;
+    }
+
+    .top_block_text p {
+        max-width: 264px;
+        font-size: 12px;
+    }
+
+    .top_block_img {
+        max-width: 176px;
+        margin-right: 71px;
+    }
+
+    .top_block_quote {
+        max-width: 280px;
+        border-radius: 3px;
+        margin: 51px auto;
+        padding: 11px 15px;
+    }
+
+    .top_block_quote p {
+        font-size: 14px;
+    }
+
+    .top_block_quote .author {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 991px) {
+    .wrapper {
+        max-width: 375px;
+    }
+    
+    .top_block {
+        padding: 5px 35px;
+    }
+
+    .top_block_container {
+        display: block;
+    }
+    
+    .top_block_text  h1 {
+        font-size: 37px;
+        max-width: 293px;
+        margin: 0;
+    }
+
+    .top_block_text p {
+        max-width: 212px;
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+
+    .top_block_img {
+        margin-left: auto;
+    }
+
+    .top_block_img img {
+        width: 142px;
+        height: 175px;
+        display: block;
+        margin-left: auto;
+    }
+
+    .top_block_quote {
+        max-width: 225px;
+        border-radius: 2px;
+        margin: 39px 0;
+        padding: 9px 12px;
+    }
+
+    .top_block_quote p {
+        font-size: 11px;
+        margin-bottom: 7px;
+    }
+
+    .top_block_quote .author {
+        font-size: 10px;
+    }
+}
