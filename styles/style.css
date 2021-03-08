@@ -596,3 +596,123 @@ header img {
         margin-left: 8px;
     }
 }
+
+/* Block Program of kurs */
+
+.program_kurs {
+    padding: 10px 74px;
+}
+
+.program_kurs h2 {
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin: 0px 0px 95px 47px;
+}
+
+.program_kurs_container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.program_kurs_info {
+    width: calc(33.33333% - 30px);
+    margin: 15px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.program_kurs_info img {
+    width: 100%;
+}
+
+.program_kurs_item {
+    padding: 10px 15px 23px 15px;
+    box-sizing: border-box;
+}
+
+.program_kurs_item h3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.program_kurs_item p {
+    margin-top: 32px;
+    margin-bottom: 0;
+    font-size: 25px;
+    line-height: 130%;
+}
+
+@media (max-width: 1279px) {
+    .wrapper {
+        max-width: 834px;
+    }
+    
+    .program_kurs {
+        padding: 10px 48px;
+    }
+    
+    .program_kurs h2 {
+        font-size: 32px;
+        margin: 0px 0px 55px 22px;
+    }
+    
+    .program_kurs_info {
+        width: calc(33.33333% - 20px);
+        margin: 10px;
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+    }
+    
+    .program_kurs_item {
+        padding: 6px 11px 13px 11px;
+    }
+    
+    .program_kurs_item h3 {
+        font-size: 17px;
+    }
+    
+    .program_kurs_item p {
+        margin-top: 18px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 991px) {
+    .wrapper {
+        max-width: 375px;
+    }
+    
+    .program_kurs {
+        padding: 10px 34px;
+    }
+    
+    .program_kurs h2 {
+        font-size: 26px;
+        margin: 0 0 35px 0;
+    }
+
+    .program_kurs_info {
+        width: 100%;
+        max-width: 185px;
+        margin: 0 auto 24px auto;
+        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+    }
+    
+    .program_kurs_item {
+        padding: 5px 8px 10px 8px;
+    }
+    
+    .program_kurs_item h3 {
+        font-size: 14px;
+    }
+    
+    .program_kurs_item p {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+}
