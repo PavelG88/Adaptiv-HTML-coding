@@ -3,7 +3,7 @@
 
 body {
     margin: 0;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .wrapper {
@@ -12,7 +12,6 @@ body {
 }
 
 /* HEADER */
-
 header {
     padding: 21px 121px;
 }
@@ -40,67 +39,7 @@ header img {
     margin-right: 10px;
 }
 
-
-@media (max-width: 1279px) {
-    .wrapper {
-        max-width: 834px;
-    }
-    
-    header {
-        padding: 21px 70px;
-    }
-    
-    header img {
-        width: 65px;
-    }
-    
-    .header_info {
-        max-width: 295px;
-        margin-top: 56px;
-    }
-    
-    .header_info_item img {
-        width: 13px;
-        margin-right: 5px;
-    }
-    
-    .header_info_item span {
-        font-size: 12px;
-        margin-right: 5px;
-    }
-}
-
-@media (max-width: 991px) {
-    .wrapper {
-        max-width: 375px;
-    }
-
-    header {
-        padding: 35px;
-    }
-    
-    header img {
-        width: 52px;
-    }
-    
-    .header_info {
-        max-width: 237px;
-        margin-top: 45px;
-    }
-    
-    .header_info_item img {
-        width: 10px;
-        margin-right: 4px;
-    }
-    
-    .header_info_item span {
-        font-size: 10px;
-        margin-right: 4px;
-    }    
-}
-
 /* Block-1  Top block*/
-
 .top_block {
     padding: 5px 121px; 
 }
@@ -149,7 +88,7 @@ header img {
 }
 
 .top_block_quote p {
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab', serif;
     font-size: 25px;
     line-height: 130%;
     color: white;
@@ -161,113 +100,17 @@ header img {
     line-height: 130%;
     text-align: right;
     color: white;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
-@media (max-width: 1279px) {
-    .wrapper {
-        max-width: 834px;
-    }
-    
-    .top_block {
-        padding: 5px 71px;
-    }
-    .top_block_text {
-        max-width: 364px;
-    }
-
-    .top_block_text  h1 {
-        font-size: 46px;
-        margin-top: 8px;
-    }
-
-    .top_block_text p {
-        max-width: 264px;
-        font-size: 12px;
-    }
-
-    .top_block_img {
-        max-width: 176px;
-        margin-right: 71px;
-    }
-
-    .top_block_quote {
-        max-width: 280px;
-        border-radius: 3px;
-        margin: 51px auto;
-        padding: 11px 15px;
-    }
-
-    .top_block_quote p {
-        font-size: 14px;
-    }
-
-    .top_block_quote .author {
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 991px) {
-    .wrapper {
-        max-width: 375px;
-    }
-    
-    .top_block {
-        padding: 5px 35px;
-    }
-
-    .top_block_container {
-        display: block;
-    }
-    
-    .top_block_text  h1 {
-        font-size: 37px;
-        max-width: 293px;
-        margin: 0;
-    }
-
-    .top_block_text p {
-        max-width: 212px;
-        font-size: 10px;
-        margin-bottom: 0;
-    }
-
-    .top_block_img {
-        margin-left: auto;
-    }
-
-    .top_block_img img {
-        width: 142px;
-        height: 175px;
-        display: block;
-        margin-left: auto;
-    }
-
-    .top_block_quote {
-        max-width: 225px;
-        border-radius: 2px;
-        margin: 39px 0;
-        padding: 9px 12px;
-    }
-
-    .top_block_quote p {
-        font-size: 11px;
-        margin-bottom: 7px;
-    }
-
-    .top_block_quote .author {
-        font-size: 10px;
-    }
-}
 /* Block-2 About course */
-
-.about_kurs {
+.about_course {
     padding: 10px 121px;
     box-sizing: border-box;
 }
 
-.about_kurs h2 {
-    font-family: 'Roboto Slab';
+.about_course h2 {
+    font-family: 'Roboto Slab', serif;
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
@@ -335,111 +178,13 @@ header img {
     line-height: 130%;
 }
 
-@media (max-width: 1279px) {
-    .wrapper {
-        max-width: 834px;
-    }
-    
-    .about_kurs {
-        padding: 10px 71px;
-    }
-    
-    .about_kurs h2 {
-        font-size: 32px;
-    }
-    
-    .main_text {
-        max-width: 384px;
-        font-size: 14px;
-    }
-    
-    .main_img {
-        max-width: 212px;
-    }
-    
-    .dop_info {
-        margin-top: 35px;
-        max-width: 581px;
-    }
-
-    .dop_img {
-        max-width: 135px;
-    }
-    
-    .dop_text_item {
-        max-width: 87px;
-        margin: 28px;
-    }
-    
-    .dop_text_item h3 {
-        font-size: 15px;
-        margin-bottom: 6px;
-    }
-    
-    .dop_text_item p {
-        font-size: 11px;
-    }
-}
-
-@media (max-width: 991px) {
-    .wrapper {
-        max-width: 375px;
-    }
-    .about_kurs {
-        padding: 10px 36px;
-    }
-    
-    .about_kurs h2 {
-        font-size: 26px;
-    }
-    
-    .block_main_info {
-        display: block;
-    }
-
-    .main_text {
-        max-width: 100%;
-        font-size: 12px;
-    }
-    
-    .main_img {
-        max-width: 171px;
-        margin: 15px auto;
-    }
-    
-    .dop_info {
-        margin-top: 30px;
-        max-width: 100%;
-        display: block;
-    }
-
-    .dop_img {
-        display: none;
-    }
-    
-    .dop_text_item {
-        max-width: 87px;
-        margin: 0 33px 33px 0;
-    }
-    
-    .dop_text_item h3 {
-        font-size: 12px;
-        margin-bottom: 3px;
-    }
-    
-    .dop_text_item p {
-        font-size: 10px;
-    }    
-}
-
-/* 3. Block lesson format */
-
+/* Block-3 Lesson format */
 .lesson_format {
     padding: 0 121px;    
 }
 
 .lesson_format h2 {
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab', serif;
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
@@ -471,74 +216,13 @@ header img {
     margin: 0;
 }
 
-@media (max-width: 1279px) {
-    .wrapper {
-        max-width: 834px;
-    }
-    
-    .lesson_format {
-        padding: 0 70px;    
-    }
-    
-    .lesson_format h2 {
-        font-size: 32px;
-        margin-bottom: 53px;
-    }
-    
-    .info_lesson_format {
-        max-width: 564.11px;
-    }
-    
-    .item_info h3 {
-        font-size: 15px;
-    }
-    
-    .item_info p {
-        font-size: 11px;
-    }
-}
-
-@media (max-width: 991px) {
-    .wrapper {
-        max-width: 375px;
-    }
-    
-    .lesson_format {
-        padding: 0 35px;    
-    }
-    
-    .lesson_format h2 {
-        font-size: 26px;
-        margin-bottom: 23px;
-    }
-    
-    .info_lesson_format {
-        flex-direction: column;
-        max-width: 180px;
-
-    }
-
-    .item_info {
-        width: 100%;
-        margin: 0 0 23px 0;
-    }
-    
-    .item_info h3 {
-        font-size: 12px;
-    }
-    
-    .item_info p {
-        font-size: 10px;
-    }
-}
-
-/* 4. Block What learn */
+/* Block-4 What learn */
 .what_learn {
     padding: 0 121px;    
 }
 
 .what_learn h2 {
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab', serif;
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
@@ -554,170 +238,55 @@ header img {
     padding: 0;
 }
 
-@media (max-width: 1279px) {
-    .wrapper {
-        max-width: 834px;
-    }
-    
-    .what_learn {
-        padding: 0 70px;    
-    }
-    
-    .what_learn h2 {
-        font-size: 32px;
-        margin-bottom: 33px;
-    }
-    
-    .info_what_learn {
-        max-width: 393px;
-        font-size: 14px;
-        margin-left: 10px;
-    }
-
-}
-
-@media (max-width: 991px) {
-    .wrapper {
-        max-width: 375px;
-    }
-    
-    .what_learn {
-        padding: 0 35px;    
-    }
-    
-    .what_learn h2 {
-        font-size: 26px;
-        margin-bottom: 26px;
-    }
-    
-    .info_what_learn {
-        max-width: 307px;
-        font-size: 12px;
-        margin-left: 8px;
-    }
-}
-
-/* Block Program of kurs */
-
-.program_kurs {
+/* Block-5 Program of course */
+.program_course {
     padding: 10px 74px;
 }
 
-.program_kurs h2 {
-    font-family: 'Roboto Slab';
+.program_course h2 {
+    font-family: 'Roboto Slab', serif;
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
     margin: 0px 0px 95px 47px;
 }
 
-.program_kurs_container {
+.program_course_container {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
 
-.program_kurs_info {
+.program_course_info {
     width: calc(33.33333% - 30px);
     margin: 15px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
 
-.program_kurs_info img {
+.program_course_info img {
     width: 100%;
 }
 
-.program_kurs_item {
+.program_course_item {
     padding: 10px 15px 23px 15px;
     box-sizing: border-box;
 }
 
-.program_kurs_item h3 {
+.program_course_item h3 {
     margin: 0;
     font-weight: bold;
     font-size: 30px;
 }
 
-.program_kurs_item p {
+.program_course_item p {
     margin-top: 32px;
     margin-bottom: 0;
     font-size: 25px;
     line-height: 130%;
 }
 
-@media (max-width: 1279px) {
-    .wrapper {
-        max-width: 834px;
-    }
-    
-    .program_kurs {
-        padding: 10px 48px;
-    }
-    
-    .program_kurs h2 {
-        font-size: 32px;
-        margin: 0px 0px 55px 22px;
-    }
-    
-    .program_kurs_info {
-        width: calc(33.33333% - 20px);
-        margin: 10px;
-        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
-        border-radius: 17.375px;
-    }
-    
-    .program_kurs_item {
-        padding: 6px 11px 13px 11px;
-    }
-    
-    .program_kurs_item h3 {
-        font-size: 17px;
-    }
-    
-    .program_kurs_item p {
-        margin-top: 18px;
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 991px) {
-    .wrapper {
-        max-width: 375px;
-    }
-    
-    .program_kurs {
-        padding: 10px 34px;
-    }
-    
-    .program_kurs h2 {
-        font-size: 26px;
-        margin: 0 0 35px 0;
-    }
-
-    .program_kurs_info {
-        width: 100%;
-        max-width: 185px;
-        margin: 0 auto 24px auto;
-        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
-        border-radius: 13.9792px;
-    }
-    
-    .program_kurs_item {
-        padding: 5px 8px 10px 8px;
-    }
-    
-    .program_kurs_item h3 {
-        font-size: 14px;
-    }
-    
-    .program_kurs_item p {
-        margin-top: 15px;
-        font-size: 12px;
-    }
-}
-
-/* Course passed */
+/*Block-6 Course passed */
 .course_passed {
     padding: 65px 121px;
     box-sizing: border-box;
@@ -725,7 +294,7 @@ header img {
 }
 
 .course_passed h2 {
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab', serif;
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
@@ -759,7 +328,7 @@ header img {
 }
 
 .feedback_auther h3{
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab', serif;
     font-weight: bold;
     font-size: 30px;
     line-height: 101.38%;
@@ -769,108 +338,22 @@ header img {
     width: 32px;
 }
 
-@media (max-width: 1279px) {
-    .wrapper {
-        max-width: 834px;
-    }
-    
-    .course_passed {
-        padding: 26px 71px;
-    }
-    
-    .course_passed h2 {
-        font-size: 32px;
-    }
-    
-    .feedback {
-        max-width: 458px;
-        padding: 23px 26px;
-        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
-        border-radius: 17.375px;
-    }
-    
-    .feedback p {
-        font-size: 12px;
-    }
-    
-    .block_auther {
-        margin-top: 17px;
-    }
-    
-    .auther_ava img {
-        width: 110px;
-        height: 98px;
-        margin-right: 17px;
-    }
-    
-    .feedback_auther h3{
-        font-size: 17px;
-    }
-    
-    .feedback_auther img {
-        width: 18px;
-    }
-}
-
-@media (max-width: 991px) {
-    .wrapper {
-        max-width: 375px;
-    }
-
-    .course_passed {
-        padding: 16px 36px;
-    }
-    
-    .course_passed h2 {
-        font-size: 26px;
-    }
-    
-    .feedback {
-        max-width: 308px;
-        padding: 18px 21px;
-        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
-        border-radius: 13.9792px;
-    }
-    
-    .feedback p {
-        font-size: 10px;
-    }
-    
-    .block_auther {
-        margin-top: 14px;
-    }
-    
-    .auther_ava img {
-        width: 80px;
-        height: 84px;
-        margin-right: 14px;
-    }
-    
-    .feedback_auther h3{
-        font-size: 14px;
-    }
-    
-    .feedback_auther img {
-        width: 15px;
-    }
-}
-
-/* Block Start of course */
-.start_kurs {
+/* Block-7 Start of course */
+.start_course {
     background-color: #9DC9C8;
     padding: 179px 121px;
     box-sizing: border-box;
 }
 
-.start_kurs h2 {
-    font-family: 'Roboto Slab';
+.start_course h2 {
+    font-family: 'Roboto Slab', serif;
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
     margin-top: 0;
 }
 
-.start_kurs p {
+.start_course p {
     font-size: 25px;
     line-height: 101.38%;
     margin: 0;
@@ -882,7 +365,7 @@ p.cost {
     line-height: 101.38%;
 }
 
-.start_kurs_info {
+.start_course_info {
     margin-top: 70px;
     max-width: 686px;
     display: flex;
@@ -890,107 +373,24 @@ p.cost {
     flex-wrap: wrap;
 }
 
-.start_kurs_item {
+.start_course_item {
     max-width: 294px;
     margin-bottom: 10px;
 }
 
-.start_kurs_item h3 {
+.start_course_item h3 {
     font-size: 25px;
     line-height: 101.38%;
     margin-top: 0;
     margin-bottom: 9px;
 }
 
-.start_kurs_item p {
+.start_course_item p {
     font-size: 18px;
     line-height: 101.38%;    
 }
 
-@media (max-width: 1279px) {
-    .wrapper {
-        max-width: 834px;
-    }
-    
-    .start_kurs {
-        padding: 104px 71px;
-    }
-    
-    .start_kurs h2 {
-        font-size: 32px;
-    }
-    
-    .start_kurs p {
-        font-size: 14px;
-    }
-    
-    p.cost {
-        font-size: 46px;
-    }
-    
-    .start_kurs_info {
-        margin-top: 38px;
-        max-width: 398px;
-    }
-    
-    .start_kurs_item {
-        max-width: 170px;
-    }
-    
-    .start_kurs_item h3 {
-        font-size: 14px;
-        margin-bottom: 6px;
-    }
-    
-    .start_kurs_item p {
-        font-size: 10px;
-    }
-}
-
-@media (max-width: 991px) {
-    .wrapper {
-        max-width: 375px;
-    }
-    
-    .start_kurs {
-        padding: 62px 32px;
-    }
-    
-    .start_kurs h2 {
-        font-size: 26px;
-        margin-right: 95px;
-    }
-    
-    .start_kurs p {
-        font-size: 12px;
-    }
-    
-    p.cost {
-        font-size: 37px;
-    }
-    
-    .start_kurs_info {
-        margin-top: 30px;
-        max-width: 320px;
-    }
-    
-    .start_kurs_item {
-        max-width: 138px;
-    }
-    
-    .start_kurs_item h3 {
-        font-size: 12px;
-        margin-bottom: 6px;
-        font-weight: 400;
-    }
-    
-    .start_kurs_item p {
-        font-size: 10px;
-    }
-}
-
 /* FOOTER */
-
 footer {
     background-color: black;
     padding: 50px 147px 40px 121px;   
@@ -1036,12 +436,256 @@ footer {
     margin: 0;
 }
 
-
 @media (max-width: 1279px) {
     .wrapper {
         max-width: 834px;
     }
     
+    /* HEADER */
+    header {
+        padding: 21px 70px;
+    }
+    
+    header img {
+        width: 65px;
+    }
+    
+    .header_info {
+        max-width: 295px;
+        margin-top: 56px;
+    }
+    
+    .header_info_item img {
+        width: 13px;
+        margin-right: 5px;
+    }
+    
+    .header_info_item span {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    /* Block-1  Top block*/
+    .top_block {
+        padding: 5px 71px;
+    }
+    .top_block_text {
+        max-width: 364px;
+    }
+
+    .top_block_text  h1 {
+        font-size: 46px;
+        margin-top: 8px;
+    }
+
+    .top_block_text p {
+        max-width: 264px;
+        font-size: 12px;
+    }
+
+    .top_block_img {
+        max-width: 176px;
+        margin-right: 71px;
+    }
+
+    .top_block_quote {
+        max-width: 280px;
+        border-radius: 3px;
+        margin: 51px auto;
+        padding: 11px 15px;
+    }
+
+    .top_block_quote p {
+        font-size: 14px;
+    }
+
+    .top_block_quote .author {
+        font-size: 12px;
+    }
+
+    /* Block-2 About course */
+    .about_course {
+        padding: 10px 71px;
+    }
+    
+    .about_course h2 {
+        font-size: 32px;
+    }
+    
+    .main_text {
+        max-width: 384px;
+        font-size: 14px;
+    }
+    
+    .main_img {
+        max-width: 212px;
+    }
+    
+    .dop_info {
+        margin-top: 35px;
+        max-width: 581px;
+    }
+
+    .dop_img {
+        max-width: 135px;
+    }
+    
+    .dop_text_item {
+        max-width: 87px;
+        margin: 28px;
+    }
+    
+    .dop_text_item h3 {
+        font-size: 15px;
+        margin-bottom: 6px;
+    }
+    
+    .dop_text_item p {
+        font-size: 11px;
+    }
+
+    /* Block-3 Lesson format */
+    .lesson_format {
+        padding: 0 70px;    
+    }
+    
+    .lesson_format h2 {
+        font-size: 32px;
+        margin-bottom: 53px;
+    }
+    
+    .info_lesson_format {
+        max-width: 564.11px;
+    }
+    
+    .item_info h3 {
+        font-size: 15px;
+    }
+    
+    .item_info p {
+        font-size: 11px;
+    }
+
+    /* Block-4 What learn */
+    .what_learn {
+        padding: 0 70px;    
+    }
+    
+    .what_learn h2 {
+        font-size: 32px;
+        margin-bottom: 33px;
+    }
+    
+    .info_what_learn {
+        max-width: 393px;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    /* Block-5 Program of course */
+    .program_course {
+        padding: 10px 48px;
+    }
+    
+    .program_course h2 {
+        font-size: 32px;
+        margin: 0px 0px 55px 22px;
+    }
+    
+    .program_course_info {
+        width: calc(33.33333% - 20px);
+        margin: 10px;
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+    }
+    
+    .program_course_item {
+        padding: 6px 11px 13px 11px;
+    }
+    
+    .program_course_item h3 {
+        font-size: 17px;
+    }
+    
+    .program_course_item p {
+        margin-top: 18px;
+        font-size: 14px;
+    }
+
+    /*Block-6 Course passed */
+    .course_passed {
+        padding: 26px 71px;
+    }
+    
+    .course_passed h2 {
+        font-size: 32px;
+    }
+    
+    .feedback {
+        max-width: 458px;
+        padding: 23px 26px;
+        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+    }
+    
+    .feedback p {
+        font-size: 12px;
+    }
+    
+    .block_auther {
+        margin-top: 17px;
+    }
+    
+    .auther_ava img {
+        width: 110px;
+        height: 98px;
+        margin-right: 17px;
+    }
+    
+    .feedback_auther h3{
+        font-size: 17px;
+    }
+    
+    .feedback_auther img {
+        width: 18px;
+    }
+
+    /* Block-7 Start of course */
+    .start_course {
+        padding: 104px 71px;
+    }
+    
+    .start_course h2 {
+        font-size: 32px;
+    }
+    
+    .start_course p {
+        font-size: 14px;
+    }
+    
+    p.cost {
+        font-size: 46px;
+    }
+    
+    .start_course_info {
+        margin-top: 38px;
+        max-width: 398px;
+    }
+    
+    .start_course_item {
+        max-width: 170px;
+    }
+    
+    .start_course_item h3 {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    
+    .start_course_item p {
+        font-size: 10px;
+    }
+
+    /* FOOTER */
     footer {
         padding: 29px 100px 29px 71px;
     }
@@ -1076,7 +720,278 @@ footer {
     .wrapper {
         max-width: 375px;
     }
+
+    /* HEADER */
+    header {
+        padding: 35px;
+    }
     
+    header img {
+        width: 52px;
+    }
+    
+    .header_info {
+        max-width: 237px;
+        margin-top: 45px;
+    }
+    
+    .header_info_item img {
+        width: 10px;
+        margin-right: 4px;
+    }
+    
+    .header_info_item span {
+        font-size: 10px;
+        margin-right: 4px;
+    }
+    
+    /* Block-1  Top block*/
+    .top_block {
+        padding: 5px 35px;
+    }
+
+    .top_block_container {
+        display: block;
+    }
+    
+    .top_block_text  h1 {
+        font-size: 37px;
+        max-width: 293px;
+        margin: 0;
+    }
+
+    .top_block_text p {
+        max-width: 212px;
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+
+    .top_block_img {
+        margin-left: auto;
+    }
+
+    .top_block_img img {
+        width: 142px;
+        height: 175px;
+        display: block;
+        margin-left: auto;
+    }
+
+    .top_block_quote {
+        max-width: 225px;
+        border-radius: 2px;
+        margin: 39px 0;
+        padding: 9px 12px;
+    }
+
+    .top_block_quote p {
+        font-size: 11px;
+        margin-bottom: 7px;
+    }
+
+    .top_block_quote .author {
+        font-size: 10px;
+    }
+
+    /* Block-2 About course */
+    .about_course {
+        padding: 10px 36px;
+    }
+    
+    .about_course h2 {
+        font-size: 26px;
+    }
+    
+    .block_main_info {
+        display: block;
+    }
+
+    .main_text {
+        max-width: 100%;
+        font-size: 12px;
+    }
+    
+    .main_img {
+        max-width: 171px;
+        margin: 15px auto;
+    }
+    
+    .dop_info {
+        margin-top: 30px;
+        max-width: 100%;
+        display: block;
+    }
+
+    .dop_img {
+        display: none;
+    }
+    
+    .dop_text_item {
+        max-width: 87px;
+        margin: 0 33px 33px 0;
+    }
+    
+    .dop_text_item h3 {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+    
+    .dop_text_item p {
+        font-size: 10px;
+    }
+
+    /* Block-3 Lesson format */
+    .lesson_format {
+        padding: 0 35px;    
+    }
+    
+    .lesson_format h2 {
+        font-size: 26px;
+        margin-bottom: 23px;
+    }
+    
+    .info_lesson_format {
+        flex-direction: column;
+        max-width: 180px;
+
+    }
+
+    .item_info {
+        width: 100%;
+        margin: 0 0 23px 0;
+    }
+    
+    .item_info h3 {
+        font-size: 12px;
+    }
+    
+    .item_info p {
+        font-size: 10px;
+    }
+
+    /* Block-4 What learn */
+    .what_learn {
+        padding: 0 35px;    
+    }
+    
+    .what_learn h2 {
+        font-size: 26px;
+        margin-bottom: 26px;
+    }
+    
+    .info_what_learn {
+        max-width: 307px;
+        font-size: 12px;
+        margin-left: 8px;
+    }
+
+    /* Block-5 Program of course */
+    .program_course {
+        padding: 10px 34px;
+    }
+    
+    .program_course h2 {
+        font-size: 26px;
+        margin: 0 0 35px 0;
+    }
+
+    .program_course_info {
+        width: 100%;
+        max-width: 185px;
+        margin: 0 auto 24px auto;
+        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+    }
+    
+    .program_course_item {
+        padding: 5px 8px 10px 8px;
+    }
+    
+    .program_course_item h3 {
+        font-size: 14px;
+    }
+    
+    .program_course_item p {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+    /*Block-6 Course passed */
+    .course_passed {
+        padding: 16px 36px;
+    }
+    
+    .course_passed h2 {
+        font-size: 26px;
+    }
+    
+    .feedback {
+        max-width: 308px;
+        padding: 18px 21px;
+        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+    }
+    
+    .feedback p {
+        font-size: 10px;
+    }
+    
+    .block_auther {
+        margin-top: 14px;
+    }
+    
+    .auther_ava img {
+        width: 80px;
+        height: 84px;
+        margin-right: 14px;
+    }
+    
+    .feedback_auther h3{
+        font-size: 14px;
+    }
+    
+    .feedback_auther img {
+        width: 15px;
+    }
+
+    /* Block-7 Start of course */
+    .start_course {
+        padding: 62px 32px;
+    }
+    
+    .start_course h2 {
+        font-size: 26px;
+        margin-right: 95px;
+    }
+    
+    .start_course p {
+        font-size: 12px;
+    }
+    
+    p.cost {
+        font-size: 37px;
+    }
+    
+    .start_course_info {
+        margin-top: 30px;
+        max-width: 320px;
+    }
+    
+    .start_course_item {
+        max-width: 138px;
+    }
+    
+    .start_course_item h3 {
+        font-size: 12px;
+        margin-bottom: 6px;
+        font-weight: 400;
+    }
+    
+    .start_course_item p {
+        font-size: 10px;
+    }
+
+    /* FOOTER */
     footer {
         padding: 23px 57px;
     }
