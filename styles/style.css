@@ -138,12 +138,10 @@ header img {
 }
 
 .dop_info {
-    margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 1000px;
 }
 
 .dop_img {
@@ -435,6 +433,10 @@ footer {
     margin-bottom: 30px;
 }
 
+.footer_info_logo img {
+    width: 100%;
+}
+
 .footer_info_messeger img {
     width: 30px;
     margin-right: 18px;
@@ -474,10 +476,7 @@ footer {
     margin: 0;
 }
 
-@media (max-width: 1279px) {
-    .wrapper {
-        max-width: 834px;
-    }
+@media (min-width: 992px) and (max-width: 1279px)  {
     
     /* HEADER */
     header {
@@ -507,29 +506,24 @@ footer {
     .top_block {
         padding: 5px 71px;
     }
-    .top_block_text {
-        max-width: 364px;
-    }
 
     .top_block_text  h1 {
         font-size: 46px;
-        margin-top: 8px;
     }
 
     .top_block_text p {
-        max-width: 264px;
         font-size: 12px;
     }
 
     .top_block_img {
         max-width: 176px;
-        margin-right: 71px;
+        margin-right: 130px;
     }
 
     .top_block_quote {
         max-width: 280px;
         border-radius: 3px;
-        margin: 51px auto;
+        margin-top: 51px;
         padding: 11px 15px;
     }
 
@@ -544,14 +538,19 @@ footer {
     /* Block-2 About course */
     .about_course {
         padding: 10px 71px;
+        margin-top: 70px;
     }
     
     .about_course h2 {
         font-size: 32px;
     }
     
+    .block_main_info {
+        margin: 20px 0;
+    }
+
     .main_text {
-        max-width: 384px;
+        max-width: 800px;
         font-size: 14px;
     }
     
@@ -559,17 +558,12 @@ footer {
         max-width: 212px;
     }
     
-    .dop_info {
-        margin-top: 35px;
-        max-width: 581px;
-    }
-
     .dop_img {
         max-width: 135px;
     }
     
     .dop_text_item {
-        max-width: 87px;
+        max-width: 100px;
         margin: 28px;
     }
     
@@ -584,7 +578,8 @@ footer {
 
     /* Block-3 Lesson format */
     .lesson_format {
-        padding: 0 70px;    
+        padding: 0 70px;
+        margin-top: 70px;    
     }
     
     .lesson_format h2 {
@@ -592,9 +587,9 @@ footer {
         margin-bottom: 53px;
     }
     
-    .info_lesson_format {
+    /* .info_lesson_format {
         max-width: 564.11px;
-    }
+    } */
     
     .item_info h3 {
         font-size: 15px;
@@ -606,7 +601,8 @@ footer {
 
     /* Block-4 What learn */
     .what_learn {
-        padding: 0 70px;    
+        padding: 0 70px;
+        margin-top: 53px;    
     }
     
     .what_learn h2 {
@@ -615,21 +611,33 @@ footer {
     }
     
     .info_what_learn {
-        max-width: 393px;
+        /* max-width: 393px; */
         font-size: 14px;
         margin-left: 10px;
+    }
+
+    .info_what_learn li:before {
+        width: 4px;
+        height: 4px;
+        top: 8px;
+        left: -10px;
     }
 
     /* Block-5 Program of course */
     .program_course {
         padding: 10px 48px;
+        margin-top: 50px;
     }
     
     .program_course h2 {
         font-size: 32px;
-        margin: 0px 0px 55px 22px;
+        margin-bottom: 55px;
     }
     
+    .program_course_container {
+        margin: 0 -20px;
+    }
+
     .program_course_info {
         width: calc(33.33333% - 20px);
         margin: 10px;
@@ -652,6 +660,7 @@ footer {
 
     /*Block-6 Course passed */
     .course_passed {
+        margin-top: 50px;
         padding: 26px 71px;
     }
     
@@ -677,7 +686,6 @@ footer {
     .auther_ava img {
         width: 110px;
         height: 98px;
-        margin-right: 17px;
     }
     
     .feedback_auther h3{
@@ -728,13 +736,14 @@ footer {
         padding: 29px 100px 29px 71px;
     }
     
-    .footer_info_logo img {
+    .footer_info_logo {
         width: 67px;
+        margin-bottom: 17px;
     }
     
     .footer_info_messeger img {
         width: 19px;
-        margin: 17px 10.5px 17px 0;
+        margin-right: 10.5px;
     }
     
     .footer_copyright {
@@ -742,22 +751,24 @@ footer {
         font-size: 10px;
     }
     
-    .contacts img {
+    .tele img {
         width: 15.6px;
         height: 15.6px;
-        margin: 0 13px 14px 0;
+        margin-right: 13px;
+    }
+
+    .mail img {
+        width: 15.6px;
+        height: 10.4px;
+        margin-right: 13px;
     }
     
     .contacts p {
         font-size: 14px;
-        margin: 0 13px 14px 0;
     }
 }
 
 @media (max-width: 991px) {
-    .wrapper {
-        max-width: 375px;
-    }
 
     /* HEADER */
     header {
@@ -794,7 +805,6 @@ footer {
     
     .top_block_text  h1 {
         font-size: 37px;
-        max-width: 293px;
         margin: 0;
     }
 
@@ -818,7 +828,7 @@ footer {
     .top_block_quote {
         max-width: 225px;
         border-radius: 2px;
-        margin: 39px 0;
+        margin-top: 39px;
         padding: 9px 12px;
     }
 
@@ -834,6 +844,7 @@ footer {
     /* Block-2 About course */
     .about_course {
         padding: 10px 36px;
+        margin-top: 40px;
     }
     
     .about_course h2 {
@@ -880,7 +891,8 @@ footer {
 
     /* Block-3 Lesson format */
     .lesson_format {
-        padding: 0 35px;    
+        padding: 0 35px;
+        margin-top: 40px;    
     }
     
     .lesson_format h2 {
@@ -891,7 +903,6 @@ footer {
     .info_lesson_format {
         flex-direction: column;
         max-width: 180px;
-
     }
 
     .item_info {
@@ -909,7 +920,8 @@ footer {
 
     /* Block-4 What learn */
     .what_learn {
-        padding: 0 35px;    
+        padding: 0 35px;
+        margin-top: 40px;    
     }
     
     .what_learn h2 {
@@ -918,19 +930,32 @@ footer {
     }
     
     .info_what_learn {
-        max-width: 307px;
+        /* max-width: 307px; */
         font-size: 12px;
         margin-left: 8px;
+    }
+
+    .info_what_learn li:before {
+        width: 3px;
+        height: 3px;
+        top: 7px;
+        left: -7px;
     }
 
     /* Block-5 Program of course */
     .program_course {
         padding: 10px 34px;
+        margin-top: 40px;
     }
     
     .program_course h2 {
         font-size: 26px;
-        margin: 0 0 35px 0;
+        margin-bottom: 35px;
+    }
+
+    .program_course_container {
+        margin: 0;
+        flex-direction: column;
     }
 
     .program_course_info {
@@ -957,6 +982,7 @@ footer {
     /*Block-6 Course passed */
     .course_passed {
         padding: 16px 36px;
+        margin-top: 40px;
     }
     
     .course_passed h2 {
@@ -978,10 +1004,13 @@ footer {
         margin-top: 14px;
     }
     
-    .auther_ava img {
-        width: 80px;
-        height: 84px;
+    .auther_ava {
         margin-right: 14px;
+    }
+
+    .auther_ava img {
+        width: 84px;
+        height: 74px;
     }
     
     .feedback_auther h3{
@@ -1038,28 +1067,41 @@ footer {
         display: block;
     }
 
+    .footer_info_logo {
+        margin-bottom: 14px;
+    }
+
     .footer_info_logo img {
         width: 54px;
     }
     
     .footer_info_messeger img {
         width: 15px;
-        margin: 14px 8px 14px 0;
+        margin-right: 8px;
     }
     
     .contacts {
         margin-top: 48px;
     }
 
-    .contacts img {
+    .tele, .mail {
+        margin-bottom: 12px;
+    }
+
+    .tele img {
         width: 12px;
         height: 12px;
-        margin: 0 10px 11px 0;
+        margin-right: 11px;
     }
     
+    .mail img {
+        width: 12px;
+        height: 8px;
+        margin-right: 11px;
+    }
+
     .contacts p {
         font-size: 14px;
-        margin: 0 10px 11px 0;
     }
 
     .footer_copyright {
